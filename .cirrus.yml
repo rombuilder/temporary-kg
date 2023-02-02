@@ -1,7 +1,5 @@
 task: 
    name: Build 
-   skip: $CIRRUS_BRANCH == 'main' 
-   only_if: $CIRRUS_REPO_OWNER == 'rombuilder' 
    
    timeout_in: 240 
    persistent_worker: 
